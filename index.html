@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hammad Store</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #111, #444);
+            color: white;
+        }
+        header {
+            padding: 25px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+        }
+        .title-3d {
+            font-size: 50px;
+            font-weight: 900;
+            text-shadow: 4px 4px 15px #000, 0 0 25px #0ff;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            font-size: 18px;
+            background: cyan;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title-3d">Hammad Store</h1>
+        <p>Best Business & Professional Products</p>
+        <button class="btn">Shop Now</button>
+    </header>
+
+    <section style="padding:40px; text-align:center;">
+        <h2 style="font-size:38px; font-weight:800; text-shadow: 2px 2px 10px #000;">Our Products</h2>
+        <p>Top Quality Items Available for Online Order</p>
+
+        <div style="display:flex; justify-content:center; gap:25px; flex-wrap:wrap; margin-top:30px;">
+            <div style="width:250px; padding:20px; background:rgba(255,255,255,0.1); border-radius:15px; box-shadow:0 0 15px #000;">
+                <h3>Product Name</h3>
+                <img src="https://via.placeholder.com/250" style="width:100%; border-radius:10px;" />
+                <p>Premium Velvet | Hand-stitched</p>
+                <h3 style='margin:10px 0;'>Price: Rs 2,500</h3>
+                <button class='btn' style='background:gold; margin-top:10px;'>Add to Cart</button>
+            </div>
+
+            <div style="width:250px; padding:20px; background:rgba(255,255,255,0.1); border-radius:15px; box-shadow:0 0 15px #000;">
+                <h3>Product Name</h3>
+                <p>Image & Details Coming Soon</p>
+            </div>
+
+            <div style="width:250px; padding:20px; background:rgba(255,255,255,0.1); border-radius:15px; box-shadow:0 0 15px #000;">
+                <h3>Product Name</h3>
+                <p>Image & Details Coming Soon</p>
+            </div>
+        </div>
+
+        <a href="https://wa.me/923000000000" target="_blank">
+            <button class="btn" style="margin-top:40px; background:lime;">Order on WhatsApp</button>
+        </a>
+    </section>
+</body>
+</html>
